@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <i class="fab fa-facebook fb-logo"></i>
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search Facebook">
+            </div>
+        </div>
+        <div class="header-center">
+            <div class="nav-icon active"><i class="fas fa-home"></i></div>
+            <div class="nav-icon"><i class="fas fa-user-friends"></i></div>
+            <div class="nav-icon"><i class="fas fa-video"></i></div>
+            <div class="nav-icon"><i class="fas fa-store"></i></div>
+            <div class="nav-icon"><i class="fas fa-users"></i></div>
+        </div>
+        <div class="header-right">
+            <div class="icon-btn"><i class="fas fa-bars"></i></div>
+            <div class="icon-btn"><i class="fab fa-facebook-messenger"></i></div>
+            <div class="icon-btn"><i class="fas fa-bell"></i></div>
+            <div class="profile-pic"></div>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <!-- Left Sidebar -->
+        <aside class="left-sidebar">
+            <ul class="sidebar-menu">
+                <li><div class="profile-pic small"></div> User Name</li>
+                <li><i class="fas fa-user-friends" style="color: #1b74e4;"></i> Friends</li>
+                <li><i class="fas fa-history" style="color: #1b74e4;"></i> Memories</li>
+                <li><i class="fas fa-bookmark" style="color: #8a3ab9;"></i> Saved</li>
+                <li><i class="fas fa-users" style="color: #1b74e4;"></i> Groups</li>
+                <li><i class="fas fa-video" style="color: #1b74e4;"></i> Video</li>
+                <li><i class="fas fa-store" style="color: #1b74e4;"></i> Marketplace</li>
+            </ul>
+        </aside>
+
+        <!-- Main Content (Feed) -->
+        <div class="feed-content">
+            <div class="create-post">
+                <div class="post-input-area">
+                    <div class="profile-pic"></div>
+                    <input type="text" placeholder="What's on your mind?">
+                </div>
+                <div class="post-actions">
+                    <div class="action"><i class="fas fa-video" style="color: #f3425f;"></i> Live video</div>
+                    <div class="action"><i class="fas fa-images" style="color: #45bd62;"></i> Photo/video</div>
+                    <div class="action"><i class="far fa-smile" style="color: #f7b928;"></i> Feeling/activity</div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-header">
+                    <div class="profile-pic"></div>
+                    <div class="post-info">
+                        <h4>Some Page</h4>
+                        <span>2 hours ago</span>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p>This is a simplified Facebook layout for testing purposes!</p>
+                </div>
+                <div class="post-footer">
+                    <div class="action"><i class="far fa-thumbs-up"></i> Like</div>
+                    <div class="action"><i class="far fa-comment"></i> Comment</div>
+                    <div class="action"><i class="fas fa-share"></i> Share</div>
+                </div>
+            </div>
+            
+            <div class="post">
+                <div class="post-header">
+                    <div class="profile-pic"></div>
+                    <div class="post-info">
+                        <h4>Another User</h4>
+                        <span>5 hours ago</span>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p>Building layouts is fun. This has a fixed header, a left sidebar, a right sidebar, and the main feed in the center.</p>
+                </div>
+                <div class="post-footer">
+                    <div class="action"><i class="far fa-thumbs-up"></i> Like</div>
+                    <div class="action"><i class="far fa-comment"></i> Comment</div>
+                    <div class="action"><i class="fas fa-share"></i> Share</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <div class="contacts-header">
+                <h4>Contacts</h4>
+                <div class="contacts-actions">
+                    <i class="fas fa-video"></i>
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <ul class="contacts-list">
+                <li><div class="profile-pic small relative"><div class="online-indicator"></div></div> Friend 1</li>
+                <li><div class="profile-pic small relative"><div class="online-indicator"></div></div> Friend 2</li>
+                <li><div class="profile-pic small relative"><div class="online-indicator"></div></div> Friend 3</li>
+                <li><div class="profile-pic small relative"><div class="online-indicator"></div></div> Friend 4</li>
+                <li><div class="profile-pic small relative"><div class="online-indicator"></div></div> Friend 5</li>
+            </ul>
+        </aside>
+    </main>
+</body>
+</html>
